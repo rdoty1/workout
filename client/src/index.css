@@ -15,4 +15,83 @@ code {
 
 html {
   height:100%;
+
+}
+
+/* .bodyOne {
+
+  float:left;
+  border:solid;
+  border-color:black;
+  width:500px;
+  height:500px;
+
+
+} */
+
+.stepOne {
+  border:solid;
+  border-color:black;
+  width:31%;
+  float:left;
+  height:500px;
+  margin:10px;
+  margin-left:25px;
+  text-align:center;
+  padding-top:10px;
+  font-weight:bold;
+}
+/* 
+.bodyTwo {
+
+  float:left;
+  border:solid;
+  border-color:black;
+  width:500px;
+  height:500px;
+
+
+} */
+
+.stepTwo {
+  border:solid;
+  float:left;
+  border-color:black;
+  width:31%;
+  height:500px;
+  margin:10px;
+  text-align:center;
+  padding-top:10px;
+  font-weight:bold;
+}
+
+
+/* .bodyThree {
+
+  float:left;
+  border:solid;
+  border-color:black;
+  width:500px;
+  height:500px;
+
+
+} */
+
+.stepThree {
+  border:solid;
+  border-color:black;
+  float:left;
+  width:31%;
+  height:500px;
+  margin:10px;
+  text-align:center;
+  padding-top:10px;
+  font-weight:bold;
+}
+
+
+.foot  {
+
+  border:solid;
+  border-color:black;
 }
