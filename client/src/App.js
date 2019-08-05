@@ -70,10 +70,8 @@ function App() {
 
         </div>
 
-
       </Container>
 
-  
 
       <Footer>
 
