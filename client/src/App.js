@@ -23,125 +23,87 @@ function App() {
           <h1 className="stepOneTitle">
           STEP ONE: FILL OUT INFORMATION
           </h1>
-        
-
+    
           <Container>
           <form>
           <label>
           First Name:
-          <input type="text" name="firstName" />
           </label>
-          
-          </form>
-          
-         </Container>
-         <Container>
-          <form>
+          <input type="text" name="firstName" />
+          <br></br>
           <label>
           Last Name:
+          </label>
           <input type="text" name="lastName" />
-          </label>
-          </form>
-          
-         </Container>
-         <Container>
-          <form>
+          <br></br>
           <label>
-           Age:
+           Your Age:
+           </label>
           <input type="text" name="age" />
-          </label>
-          </form>
-          
-         </Container>
-         <Container>
-          <form>
+          <br></br>
           <label>
-          Weight:
+          Your Weight:
+          </label>
           <input type="text" name="weight" />
-          </label>
-          </form>
-          
-         </Container>
-         <Container>
-          <form>
+          <br></br>
           <label>
-          Goals:
+          Your Goals:
+          </label>
           <input type="text" name="goals" />
-          </label>
-          </form>
-          
-         </Container>
-         <Container>
-          <form>
+          <br></br>
           <label>
-          First Name:
-          <input type="text" name="name" />
+          Time Frame:
           </label>
-          </form>
-          
-         </Container>
-         <Container>
-          <form>
+          <input type="text" name="name" />
+          <br></br>
           <label>
-          First Name:
-          <input type="text" name="name" />
+          Days Per Week:
           </label>
-          </form>
-          
-         </Container>
-         <Container>
-          <form>
+          <input type="text" name="name" />
+          <br></br>
           <label>
-          First Name:
-          <input type="text" name="name" />
+          Workout Length:
           </label>
-          </form>
-          
-         </Container>
-         <Container>
-          <form>
+          <input type="text" name="name" />
+          <br></br>
           <label>
-          First Name:
-          <input type="text" name="name" />
+          Experience Level:
           </label>
-          </form>
-          
-         </Container>
-         <Container>
-          <form>
-          <label>
-          First Name:
           <input type="text" name="name" />
-          </label>
-          <input type="submit" value="Submit" />
-          </form>
-          
-         </Container>
-
-
-
-        </div>
-        
-        
-
-
-
-       
-
-
-
+          <br></br>
+          <input className="submit" type="submit" value="Submit" />
     
+          </form>
+          </Container>
+          
+        </div>
 
+        
+        
 
       </Container>
 
       <Container className="bodyTwo">
-        <div className="stepTwo">STEP TWO</div>
+        <div className="stepTwo">
+          
+          
+          <h1 className="stepOneTitle">
+          STEP TWO: EXPERIENCE LEVEL
+          </h1>
+
+
+          </div>
       </Container>
 
       <Container className="bodyThree">
         
-        <div className="stepThree">STEP THREE</div>
+        <div className="stepThree">
+
+
+        <h1 className="stepOneTitle">
+          STEP THREE: CHOOSE YOUR PROGRAM
+          </h1>
+        </div>
       </Container>
 
   
