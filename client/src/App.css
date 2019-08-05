@@ -93,3 +93,11 @@ form {
   text-align:center;
   margin-left:150px;
 }
+
+
+.image {
+  width:10em !important;
+  height:200px !important;
+  float:left;
+  margin:10px;
+}
