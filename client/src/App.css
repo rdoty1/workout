@@ -36,12 +36,17 @@
   width:25%;
 }
 
+.stepOneTitle {
+  border-bottom:solid;
+}
+
 .form-group {
   width:50%;
 }
 label {
   margin-left:10px;
   margin-top:15px;
+  float:left;
 }
 input {
   margin-left:10px;
@@ -59,6 +64,32 @@ input {
   padding-top:5px;
 }
 
+.stepTwoTitle {
+  color:black;
+  padding-top:5px;
+}
+
+.stepThreeTitle {
+  color:black;
+  padding-top:5px;
+}
+
 form {
   float:left;
+
+}
+
+.stepTwo {
+  padding-top:0px;
+}
+
+.stepThree {
+  padding-top:0px;
+}
+
+.submit {
+  width:100px;
+  height:50px;
+  text-align:center;
+  margin-left:150px;
 }
