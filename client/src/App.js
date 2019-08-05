@@ -4,6 +4,7 @@ import Jumbotron from "./components/Jumbotron";
 import { Col, Row, Container } from "./components/Grid";
 import Footer from "./components/Footer"
 import { Input, TextArea, FormBtn } from "./components/Form";
+import {Form} from "./components/Form"
 
 
 
@@ -25,62 +26,13 @@ function App() {
           </h1>
     
           <Container>
-          <form>
-          <label>
-          First Name:
-          </label>
-          <input type="text" name="firstName" />
-          <br></br>
-          <label>
-          Last Name:
-          </label>
-          <input type="text" name="lastName" />
-          <br></br>
-          <label>
-           Your Age:
-           </label>
-          <input type="text" name="age" />
-          <br></br>
-          <label>
-          Your Weight:
-          </label>
-          <input type="text" name="weight" />
-          <br></br>
-          <label>
-          Your Goals:
-          </label>
-          <input type="text" name="goals" />
-          <br></br>
-          <label>
-          Time Frame:
-          </label>
-          <input type="text" name="name" />
-          <br></br>
-          <label>
-          Days Per Week:
-          </label>
-          <input type="text" name="name" />
-          <br></br>
-          <label>
-          Workout Length:
-          </label>
-          <input type="text" name="name" />
-          <br></br>
-          <label>
-          Experience Level:
-          </label>
-          <input type="text" name="name" />
-          <br></br>
-          <input className="submit" type="submit" value="Submit" />
-    
-          </form>
+            <Form>
+
+            </Form>
+        
           </Container>
           
         </div>
-
-        
-        
-
       </Container>
 
       <Container className="bodyTwo">
@@ -100,10 +52,14 @@ function App() {
         <div className="stepThree">
 
 
-        <h1 className="stepOneTitle">
+          <h1 className="stepOneTitle">
           STEP THREE: CHOOSE YOUR PROGRAM
           </h1>
+
+
         </div>
+
+        
       </Container>
 
   

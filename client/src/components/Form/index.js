@@ -3,26 +3,56 @@ import React from "react";
 
 // This file exports the Input, TextArea, and FormBtn components
 
-export function Input(props) {
+export function Form(props) {
   return (
-    <div className="form-group">
-      <input className="form-control" {...props} />
-    </div>
-  );
-}
+    <form>
+    <label>
+    First Name:
+    </label>
+    <input type="text" name="firstName" />
+    <br></br>
+    <label>
+    Last Name:
+    </label>
+    <input type="text" name="lastName" />
+    <br></br>
+    <label>
+     Your Age:
+     </label>
+    <input type="text" name="age" />
+    <br></br>
+    <label>
+    Your Weight:
+    </label>
+    <input type="text" name="weight" />
+    <br></br>
+    <label>
+    Your Goals:
+    </label>
+    <input type="text" name="goals" />
+    <br></br>
+    <label>
+    Time Frame:
+    </label>
+    <input type="text" name="name" />
+    <br></br>
+    <label>
+    Days Per Week:
+    </label>
+    <input type="text" name="name" />
+    <br></br>
+    <label>
+    Workout Length:
+    </label>
+    <input type="text" name="name" />
+    <br></br>
+    <label>
+    Experience Level:
+    </label>
+    <input type="text" name="name" />
+    <br></br>
+    <input className="submit" type="submit" value="Submit" />
 
-export function TextArea(props) {
-  return (
-    <div className="form-group">
-      <textarea className="form-control" rows="20" {...props} />
-    </div>
-  );
-}
-
-export function FormBtn(props) {
-  return (
-    <button {...props} style={{ float: "right", marginBottom: 10 }} className="btn btn-success">
-      {props.children}
-    </button>
+    </form>
   );
 }
