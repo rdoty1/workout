@@ -44,9 +44,8 @@ function App() {
           </h1>
 
           <Container>
-          <img className="image" src="https://media1.popsugar-assets.com/files/thumbor/jHfmIJteIm11bxFRxZLoXBFy3m4/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2018/12/28/846/n/1922729/02f8b6105c26771fc830f0.52460620_/i/Workout-Plan-Women.jpg" alt="intermediate"></img>
           <img className="image" src="https://media3.mensxp.com/media/content/2016/Oct/beginner-rsquo-s-training-guide-in-the-gym980-1476963053_1100x513.jpg" alt="beginner"></img>
-
+          <img className="image" src="https://media1.popsugar-assets.com/files/thumbor/jHfmIJteIm11bxFRxZLoXBFy3m4/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2018/12/28/846/n/1922729/02f8b6105c26771fc830f0.52460620_/i/Workout-Plan-Women.jpg" alt="intermediate"></img>
           <img className="image" src="https://qph.fs.quoracdn.net/main-qimg-6f245bf4b6ac8c9069ac460183934ca8" alt="advanced"></img>
 
           </Container>
@@ -64,11 +63,17 @@ function App() {
 
 
           <h1 className="stepOneTitle">
-          STEP THREE: CHOOSE YOUR PROGRAM
+          STEP THREE: VERIFY YOUR INFORMATION
           </h1>
+          <br></br>
+    <input className="submit" type="submit" value="Submit" />
+
+
+
 
 
         </div>
+
 
       </Container>
 
