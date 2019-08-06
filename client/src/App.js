@@ -63,16 +63,18 @@ function App() {
 
 
           <h1 className="stepOneTitle">
-          STEP THREE: CHOOSE YOUR PROGRAM
+          STEP THREE: VERIFY YOUR INFORMATION
           </h1>
+          <br></br>
+    <input className="submit" type="submit" value="Submit" />
+
+
 
 
         </div>
 
-
       </Container>
 
-  
 
       <Footer>
 
