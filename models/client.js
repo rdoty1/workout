@@ -1,19 +1,15 @@
-const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
+module.exports = function(sequelize, DataTypes) {
+  var ClientSchema = sequelize.define("Client", {
+    lastName: DataTypes.STRING,
+    email: DataTypes.STRING,
+    age: DataTypes.INTEGER,
+    weight: DataTypes.INTEGER,
+    goals: DataTypes.STRING,
+    timeFrame:DataTypes.INTEGER,
+    daysPerWeek: DataTypes.INTEGER,
+    workoutLength: DataTypes.INTEGER,
+    experienceLevel: DataTypes.STRING
+  });
+  return ClientSchema;
+};
 
-const clientSchema = new Schema({
-  firstName: { type: String, required: true },
-  lastName: { type: String, required: true },
-  email: { type: String, required: true },
-  age: {type: [Number], required:true},
-  weight: {type: [Number], required:true},
-  goals: { type: String, required: true }, 
-  timeFrame:{type: [Number], required:true},
-  daysPerWeek: {type: [Number], required:true},
-  workoutLength: {type: [Number], required:true},
-  experienceLevel: {type: String, required:true},
-});
-
-const Client = mongoose.model("Client", clientSchema);
-
-module.exports = Client;
